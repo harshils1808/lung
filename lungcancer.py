@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 
 # Load trained model
-loaded_model = pickle.load(open(r'C:/internship/script/anaconda files/lung cancer/lung.sav', 'rb'))
+loaded_model = pickle.load(open(r'lung.sav', 'rb'))
 
 
 # Prediction function
